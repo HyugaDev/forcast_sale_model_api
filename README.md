@@ -25,7 +25,7 @@ To set up the project locally, follow these steps:
 
 ```bash
 git clone <repository-url>
-cd forecast-model-api
+cd forecast_sale_model_api
 
 ```
 ### 2. Download and Prepare Data
