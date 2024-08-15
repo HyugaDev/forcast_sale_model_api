@@ -1,0 +1,72 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Dataset files
+data/*
+
+# Pytest file
+conftest.py
+
+# Packages
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+wheels/
+pip-wheel-metadata/
+*.dist-info/
+
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+
+# Test logs and coverage reports
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.tox/
+.nox/
+coverage/
+.coverage
+.cache
+nosetests.xml
+test-reports/
+tests/__pycache__/
+
+# Docker
+*.dockerfile
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# VS Code
+.vscode/
+
+# MyPy
+.mypy_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Pytest cache
+.pytest_cache/
+htmlcov/
+pytest.ini
+
+# Local files
+*.local
+
+# macOS files
+.DS_Store
