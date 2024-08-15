@@ -1,6 +1,7 @@
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
 from app.models.model import ForecastModel
+from app.utils.preprocess import preprocess_input
 
 router = APIRouter()
 
@@ -14,7 +15,7 @@ class PredictionInput(BaseModel):
 @router.post("/predict")
 def predict(input_data: PredictionInput):
     try:
-        features = input_data
+        features = preprocess_input(input_data)
         prediction = model.predict(features)
         return {"sales": prediction[0]}
     except Exception as e:
