@@ -47,8 +47,6 @@ tests/__pycache__/
 
 # Docker
 *.dockerfile
-Dockerfile
-docker-compose.yml
 .dockerignore
 
 # VS Code
